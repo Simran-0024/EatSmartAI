@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health Profile - EatSmart AI</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <h1>🍽️ EatSmart AI</h1>
+    <h2>Your Health Profile</h2>
+    <p style="color:#888; margin-bottom:1.5rem; font-size:0.9rem">
+      These values will help us to get better food suggestions
+    </p>
+
+    <input type="number" id="blood_glucose" placeholder="Blood Glucose (mg/dL) e.g. 120" />
+    <input type="number" id="cholesterol" placeholder="Cholesterol (mg/dL) e.g. 180" />
+
+    <button onclick="saveHealth()">Save & Continue</button>
+    <br><br>
+    <a href="/dashboard" style="font-size:0.85rem; color:#888">Skip for now</a>
+
+    <div id="msg"></div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>

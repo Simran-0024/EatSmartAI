@@ -1,0 +1,8 @@
+venv/
+instance/
+food_model_v3/
+food_model_final/
+food_model_v2/
+__pycache__/
+*.pyc
+*.h5

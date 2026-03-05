@@ -1,0 +1,120 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8f0;
+  min-height: 100vh;
+}
+
+/* Auth Pages */
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.auth-container h1 { color: #e65c00; margin-bottom: 0.5rem; }
+.auth-container h2 { color: #333; margin-bottom: 1.5rem; font-size: 1.2rem; }
+
+.auth-container input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.auth-container input:focus { border-color: #e65c00; }
+
+.auth-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #e65c00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.auth-container button:hover { background: #c94e00; }
+.auth-container p { color: #666; font-size: 0.9rem; }
+.auth-container a { color: #e65c00; text-decoration: none; }
+
+#msg {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: red;
+}
+
+/* Dashboard */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.topbar h1 { color: #e65c00; }
+.topbar span { color: #333; margin-right: 1rem; }
+
+.logout-btn {
+  background: #e65c00;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.upload-section {
+  max-width: 500px;
+  margin: 3rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.upload-section h2 { color: #333; margin-bottom: 1.5rem; }
+
+.upload-section input[type="file"] { margin: 1rem 0; }
+
+.upload-section button {
+  background: #e65c00;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.upload-section button:hover { background: #c94e00; }
+
+#preview {
+  max-width: 280px;
+  margin: 1rem auto;
+  display: none;
+  border-radius: 10px;
+}
+
+#result {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#confidence { color: #888; font-size: 0.95rem; margin-top: 0.3rem; }
