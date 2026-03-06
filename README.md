@@ -29,3 +29,7 @@ python app.py
 1. Signup and enter health details
 2. Upload food image
 3. Get dish prediction with calories and health suggestion
+
+## Model Download
+Download the trained model from Google Drive and place it in the project folder:
+[Download food_model_v3]https://drive.google.com/drive/folders/1Vt2Jf1KLZrizqdYdI0dN9UiYGuUYj1DI?usp=sharing
